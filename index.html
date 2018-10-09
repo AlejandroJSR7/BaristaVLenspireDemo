@@ -7,10 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic.min.css" />
     <link rel="stylesheet" href="styles/demo-client.css">
     <title>Barista Ventures | Lenspire</title>
   </head>
-  <body class="bg-light">
+  <body class="bg-light" id="js-body">
     <main role="main" class="container">
       <div class="py-5 text-center">
           <img src="images/design/misc/Barista-Ventures-Logo.png" class="d-block mx-auto mb-4 bv-logo--main">
@@ -24,35 +25,35 @@
         <div class="col-xs-12 col-lg-6 offset-lg-3">
             <ul class="list-group">
               <li class="list-group-item d-flex justify-content-between align-items-center">
-                <a href="#card1">Assets Workflow</a>
+                <a class="scroll-anchor" href="#card1">Assets Workflow</a>
                 <div>
                   <span class="badge badge-primary badge-pill">9</span>
                   <span class="badge">steps</span>
                 </div>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center">
-                <a href="#card2">Colleague Workflow</a>
+                <a class="scroll-anchor" href="#card2">Colleague Workflow</a>
                 <div>
                   <span class="badge badge-primary badge-pill">8</span>
                   <span class="badge">steps</span>
                 </div>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center">
-                <a href="#card3">New check availability workflow</a>
+                <a class="scroll-anchor" href="#card3">New check availability workflow</a>
                 <div>
                   <span class="badge badge-primary badge-pill">10</span>
                   <span class="badge">steps</span>
                 </div>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center">
-                <a href="#card4">Some bug fixes</a>
+                <a class="scroll-anchor" href="#card4">Some bug fixes</a>
                 <div>
                   <span class="badge badge-primary badge-pill">4</span>
                   <span class="badge">steps</span>
                 </div>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center">
-                <a href="#card5">Correction to workflow</a>
+                <a class="scroll-anchor" href="#card5">Correction to workflow</a>
                 <div>
                   <span class="badge badge-primary badge-pill">1</span>
                   <span class="badge">steps</span>
@@ -228,6 +229,9 @@
           </div>
         </div>
       </div>
+      <a class="scroll-anchor scroll-anchor--top" href="#js-body">
+          <span class="oi" data-glyph="caret-top"></span>
+      </a>
     </main>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

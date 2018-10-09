@@ -1,7 +1,7 @@
 (function() {
   console.log('_demo-client.js');
 
-  $(".list-group-item a[href^='#']").on('click', function(e) {
+  $("a.scroll-anchor[href^='#']").on('click', function(e) {
 
     // prevent default anchor click behavior
     e.preventDefault();
