@@ -15,13 +15,18 @@
 
 .scroll-anchor--top {
   background: #eb503b;
-  border-radius: 3px;
+  border-radius: 2px;
+  bottom: 20px;
   color: white;
   font-size: 25px;
   line-height: 1;
+  opacity: 0.85;
   padding: 5px 5px;
   position: fixed;
-  right: 0;
-  top: 50%;
-  transform: translateX(-50%);
+  right: 20px;
+  transition: opacity 0.5s ease;
+}
+.scroll-anchor--top:hover {
+  color: white;
+  opacity: 1;
 }
